@@ -23,7 +23,7 @@ print(d)
 print ("transposed array d:")
 print(np.transpose(d))
 
-output
+//output
 Array a: [1 2 3 4 5]
 Array b: [ 6  7  8  9 10]
 Sum of arrays a&b: [ 7  9 11 13 15]
