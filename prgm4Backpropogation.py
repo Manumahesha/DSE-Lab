@@ -37,12 +37,12 @@ for i in range(epoch):
     wout+=hlayer_act.T.dot(d_output)*lr
     wb+=x.T.dot(d_output)*lr
     
-print("Inpput:\n" +str(x))
+print("Input:\n" +str(x))
 print("Actual:\n" +str(y))
 print("Predicted:\n",output)
 
 output:
-Inpput:
+Input:
 [[0.66666667 1.        ]
  [0.33333333 1.        ]
  [1.         0.66666667]]
