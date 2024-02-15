@@ -1,6 +1,6 @@
 import pandas as pd
 data={
-    'Name':['John','Emma','Sant','Lisa','Tom'],
+    'Name':['John','Emma','Ram','Lisa','Tom'],
     'Age':[25,30,28,32,27],
     'Country':['USA','Canada','India','UK','Australia'],
     'Salary':[50000,60000,70000,80000,65000]
@@ -23,7 +23,7 @@ print("\nfiltered DataFrame(Country='USA')")
 print(filtered_df)
 
 sorted_df=df.sort_values("Salary",ascending=False)
-print("\nsorted DataFrame(by ssalary in descending order)")
+print("\nsorted DataFrame(by salary in descending order)")
 print(sorted_df)
 average_Salary=df['Salary'].mean()
 
