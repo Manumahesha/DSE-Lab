@@ -40,3 +40,17 @@ for i in range(epoch):
 print("Inpput:\n" +str(x))
 print("Actual:\n" +str(y))
 print("Predicted:\n",output)
+
+output:
+Inpput:
+[[0.66666667 1.        ]
+ [0.33333333 1.        ]
+ [1.         0.66666667]]
+Actual:
+[[0.92]
+ [0.86]
+ [0.89]]
+Predicted:
+ [[0.89202199]
+ [0.8837851 ]
+ [0.8944649 ]]
